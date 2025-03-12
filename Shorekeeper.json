@@ -1,0 +1,799 @@
+{
+  "id": 1505,
+  "name": "Shorekeeper",
+  "rarity": 5,
+  "weapon": 5,
+  "element": 5,
+  "tags": [
+    {
+      "name": "Support and Healer",
+      "desc": "Improve team survivability"
+    },
+    {
+      "name": "DMG Amplification",
+      "desc": "Provides DMG Amplification for a specific teammate"
+    },
+    {
+      "name": "Traction",
+      "desc": "Pull targets in range towards a specific position"
+    }
+  ],
+  "stats": {
+    "Life": 16713,
+    "Atk": 288,
+    "Def": 1100
+  },
+  "skills": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 7,
+        "Andante Helix": 8,
+        "FF Whisperin Core": 9,
+        "HF Whisperin Core": 5,
+        "LF Whisperin Core": 5,
+        "Lento Helix": 5,
+        "MF Howler Core": 3,
+        "MF Whisperin Core": 5,
+        "Presto Helix": 11,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Origin Calculus",
+          "Desc": "Basic Attack: Perform up to 4 consecutive attacks, dealing Spectro DMG. Each hit generates 1 Collapsed Core. Heavy Attack: Hold the Normal Attack Button to enter Unbound Form, which consumes STA continuously. While in this form, Shorekeeper will: - Generate a segment of Deductive Data every second; - Automatically collect nearby plant collectibles.Using up all STA or actions such as casting Basic Attack will end the Unbound Form and deal Spectro DMG to the target. Each accumulated segment of Deductive Data will convert into a segment of Empirical Data and generate a Collapsed Core. Mid-air Attack: Consume STA to perform a Plunging Attack. Each hit generates 1 Collapsed Core. Quickly Press the Normal Attack Button after the Plunging Attack to perform Basic Attack Stage 2. Dodge Counter: Press the Normal Attack Button after a successful Dodge to attack a target, dealing Spectro DMG.",
+          "Type": "Normal Attack",
+          "Level": {
+            "1": {
+              "Format": "[15.99%|31.78%]",
+              "Name": "Stage 1 DMG"
+            },
+            "2": {
+              "Format": "[12.00%*2|23.86%*2]",
+              "Name": "Stage 2 DMG"
+            },
+            "3": {
+              "Format": "[11.73%*3|23.32%*3]",
+              "Name": "Stage 3 DMG"
+            },
+            "4": {
+              "Format": "[36.58%|72.72%]",
+              "Name": "Stage 4 DMG"
+            },
+            "5": {
+              "Format": "[23.04%|45.81%]",
+              "Name": "Heavy Attack DMG"
+            },
+            "6": {
+              "Format": "[37.20%|73.96%]",
+              "Name": "Plunging Attack DMG"
+            },
+            "7": {
+              "Format": "[44.00%*2|87.48%*2]",
+              "Name": "Dodge Counter DMG"
+            },
+            "8": {
+              "Format": "25",
+              "Name": "Heavy Attack STA Cost"
+            },
+            "9": {
+              "Format": "30",
+              "Name": "Plunging Attack STA Cost"
+            }
+          },
+          "Damage": {
+            "1505001002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 160,
+              "Energy": 50,
+              "HardnessLv": 10000,
+              "RateLv": "[15.99|31.78]%",
+              "ToughLv": 1599,
+              "Type": 0
+            },
+            "1505002002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 120,
+              "Energy": 38,
+              "HardnessLv": 10000,
+              "RateLv": "[12|23.86]%",
+              "ToughLv": 1200,
+              "Type": 0
+            },
+            "1505002004": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 120,
+              "Energy": 38,
+              "HardnessLv": 10000,
+              "RateLv": "[12|23.86]%",
+              "ToughLv": 1200,
+              "Type": 0
+            },
+            "1505003001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 118,
+              "Energy": 37,
+              "HardnessLv": 10000,
+              "RateLv": "[11.73|23.32]%",
+              "ToughLv": 1173,
+              "Type": 0
+            },
+            "1505003003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 118,
+              "Energy": 37,
+              "HardnessLv": 10000,
+              "RateLv": "[11.73|23.32]%",
+              "ToughLv": 1173,
+              "Type": 0
+            },
+            "1505004001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 366,
+              "Energy": 115,
+              "HardnessLv": 10000,
+              "RateLv": "[36.58|72.72]%",
+              "ToughLv": 3658,
+              "Type": 0
+            },
+            "1505012002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 440,
+              "Energy": 138,
+              "HardnessLv": 10000,
+              "RateLv": "[44|87.48]%",
+              "ToughLv": 4400,
+              "Type": 0
+            },
+            "1505012004": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 440,
+              "Energy": 138,
+              "HardnessLv": 10000,
+              "RateLv": "[44|87.48]%",
+              "ToughLv": 4400,
+              "Type": 0
+            },
+            "1505201001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 308,
+              "Energy": 96,
+              "HardnessLv": 10000,
+              "RateLv": "[23.04|45.81]%",
+              "ToughLv": 3072,
+              "Type": 1
+            },
+            "1505202001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 500,
+              "Energy": 155,
+              "HardnessLv": 10000,
+              "RateLv": "[37.2|73.96]%",
+              "ToughLv": 4960,
+              "Type": 0
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "Andante Helix": 3,
+        "HF Whisperin Core": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Skill": {
+        "SkillS": {
+          "Name": "HP+",
+          "Desc": "HP increased by 1.80%."
+        }
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "Andante Helix": 3,
+        "HF Whisperin Core": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Skill": {
+        "SkillS": {
+          "Name": "HP+",
+          "Desc": "HP increased by 1.80%."
+        }
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "Andante Helix": 3,
+        "HF Whisperin Core": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Skill": {
+        "SkillS": {
+          "Name": "Healing Bonus+",
+          "Desc": "Healing Bonus increased by 1.80%."
+        }
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Whisperin Core": 3,
+        "Presto Helix": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Skill": {
+        "SkillS": {
+          "Name": "Healing Bonus+",
+          "Desc": "Healing Bonus increased by 4.20%."
+        }
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Whisperin Core": 3,
+        "Presto Helix": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Skill": {
+        "SkillS": {
+          "Name": "HP+",
+          "Desc": "HP increased by 4.20%."
+        }
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Whisperin Core": 3,
+        "Presto Helix": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Skill": {
+        "SkillS": {
+          "Name": "HP+",
+          "Desc": "HP increased by 4.20%."
+        }
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Whisperin Core": 3,
+        "Presto Helix": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Skill": {
+        "SkillS": {
+          "Name": "Healing Bonus+",
+          "Desc": "Healing Bonus increased by 4.20%."
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 7,
+        "Andante Helix": 8,
+        "FF Whisperin Core": 9,
+        "HF Whisperin Core": 5,
+        "LF Whisperin Core": 5,
+        "Lento Helix": 5,
+        "MF Howler Core": 3,
+        "MF Whisperin Core": 5,
+        "Presto Helix": 11,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Chaos Theory",
+          "Desc": "Restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. Follow up with Basic Attack in time to start the Basic Attack cycle from Stage 2.Can be performed in mid-air.",
+          "Type": "Resonance Skill",
+          "Level": {
+            "1": {
+              "Format": "[15.75%|31.31%]",
+              "Name": "Dim Star Butterfly DMG"
+            },
+            "2": {
+              "Format": "[660+3.00%|1313+5.97%] HP",
+              "Name": "Healing"
+            },
+            "3": {
+              "Format": "16s",
+              "Name": "Cooldown"
+            },
+            "4": {
+              "Format": "20",
+              "Name": "Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1505301990": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 200,
+              "Energy": 200,
+              "HardnessLv": 10000,
+              "RateLv": "[15.75|31.31]%",
+              "ToughLv": 4000,
+              "Type": 4
+            },
+            "1505600001": {
+              "RelatedProperty": "HP",
+              "Element": 0,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 0,
+              "RateLv": "[3|5.97]%",
+              "ToughLv": 0,
+              "Type": 4
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 7,
+        "Andante Helix": 8,
+        "FF Whisperin Core": 9,
+        "HF Whisperin Core": 5,
+        "LF Whisperin Core": 5,
+        "Lento Helix": 5,
+        "MF Howler Core": 3,
+        "MF Whisperin Core": 5,
+        "Presto Helix": 11,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900
+      },
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "End Loop",
+          "Desc": "Outer Stellarealm: Generate the Outer Stellarealm to restore HP for all party members within its effective range continuously. This effect can be triggered once every 3s. Inner Stellarealm: When a party member uses Intro Skill within the Outer Stellarealm, it evolves into the Inner Stellarealm. Within the effective range of the Inner Stellarealm, for every 0.2% of Shorekeeper's Energy Regen, all party members gain 0.01% bonus Crit. Rate, up to 12.5%. Inner Stellarealm has all the effects of the Outer Stellarealm. Supernal Stellarealm: When a party member uses Intro Skill within the Inner Stellarealm, it evolves into the Supernal Stellarealm. Within the effective range of the Supernal Stellarealm, for every 0.1% of Shorekeeper's Energy Regen, all party members gain a 0.01% increase of Crit. DMG, up to 25%. Supernal Stellarealm has all the effects of the Inner Stellarealm.When Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. This effect takes place once each time a Supernal Stellarealm is generated.",
+          "Type": "Resonance Liberation",
+          "Level": {
+            "1": {
+              "Format": "[220+1.20%|438+2.39%] HP",
+              "Name": "Healing"
+            },
+            "2": {
+              "Format": "30s",
+              "Name": "Stellarealm Duration"
+            },
+            "3": {
+              "Format": "25s",
+              "Name": "Cooldown"
+            },
+            "4": {
+              "Format": "175",
+              "Name": "Resonance Cost"
+            },
+            "5": {
+              "Format": "20",
+              "Name": "Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1505600003": {
+              "RelatedProperty": "HP",
+              "Element": 0,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 0,
+              "RateLv": "[1.2|2.39]%",
+              "ToughLv": 0,
+              "Type": 0
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 5,
+        "MF Howler Core": 3,
+        "MF Whisperin Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 13900
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Life Entwined",
+          "Desc": "When a Resonator other than Shorekeeper takes a fatal blow, they will not be knocked out and will instead be healed for 50% of Shorekeeper's HP while Shorekeeper loses the same amount of HP. Shorekeeper's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.",
+          "Type": "Inherent Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "Andante Helix": 3,
+        "HF Whisperin Core": 3,
+        "MF Howler Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 23900
+      },
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Self Gravitation",
+          "Desc": "When the Resonator on the field is within the effective range of a Stellarealm, Shorekeeper's Energy Regen increases by 10%. If Rover is on the same team, Rover's Energy Regen also increases by 10%.",
+          "Type": "Inherent Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 7,
+        "Andante Helix": 8,
+        "FF Whisperin Core": 9,
+        "HF Whisperin Core": 5,
+        "LF Whisperin Core": 5,
+        "Lento Helix": 5,
+        "MF Howler Core": 3,
+        "MF Whisperin Core": 5,
+        "Presto Helix": 11,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900
+      },
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Proof of Existence",
+          "Desc": "Enlightenment: Shorekeeper appears to restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. This is considered Resonance Skill DMG. Discernment: When the Supernal Stellarealm is active, Shorekeeper's first Intro Skill will be replaced with Intro Skill Discernment. Casting Discernment ends the current Stellarealm, restores HP for all nearby party members, and deals Spectro DMG to the targets. This attack is guaranteed to be a Critical Hit dealing Resonance Liberation DMG. The Intro Skill Discernment can only be cast one time for each Supernal Stellarealm generated.",
+          "Type": "Intro Skill",
+          "Level": {
+            "1": {
+              "Format": "[22.79%*5|45.30%*5]",
+              "Name": "Enlightenment DMG"
+            },
+            "2": {
+              "Format": "[9.88%*3|19.64%*3] HP",
+              "Name": "Discernment DMG"
+            },
+            "3": {
+              "Format": "[130+0.60%|259+1.20%] HP",
+              "Name": "Enlightenment Healing"
+            },
+            "4": {
+              "Format": "[145+0.66%|289+1.32%] HP",
+              "Name": "Discernment Healing"
+            },
+            "5": {
+              "Format": "10",
+              "Name": "Enlightenment Concerto Regen"
+            },
+            "6": {
+              "Format": "20",
+              "Name": "Discernment Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1505505001": {
+              "RelatedProperty": "HP",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 334,
+              "HardnessLv": 10000,
+              "RateLv": "[9.88|19.64]%",
+              "ToughLv": 3334,
+              "Type": 2
+            },
+            "1505505002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 200,
+              "Energy": 200,
+              "HardnessLv": 10000,
+              "RateLv": "[22.79|45.3]%",
+              "ToughLv": 2848,
+              "Type": 3
+            },
+            "1505505011": {
+              "RelatedProperty": "HP",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 334,
+              "HardnessLv": 10000,
+              "RateLv": "[14.03|27.89]%",
+              "ToughLv": 3334,
+              "Type": 2
+            },
+            "1505600004": {
+              "RelatedProperty": "HP",
+              "Element": 0,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 0,
+              "RateLv": "[0.6|1.2]%",
+              "ToughLv": 0,
+              "Type": 3
+            },
+            "1505600005": {
+              "RelatedProperty": "HP",
+              "Element": 0,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 0,
+              "RateLv": "[0.66|1.32]%",
+              "ToughLv": 0,
+              "Type": 3
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Consume": {
+        "Adagio Helix": 7,
+        "Andante Helix": 8,
+        "FF Whisperin Core": 9,
+        "HF Whisperin Core": 5,
+        "LF Whisperin Core": 5,
+        "Lento Helix": 5,
+        "MF Howler Core": 3,
+        "MF Whisperin Core": 5,
+        "Presto Helix": 11,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Astral Chord",
+          "Desc": "Flare Star Butterfly: Hitting a target with a Normal Attack generates a Collapsed Core, which transforms into a Flare Star Butterfly after 6s. Flare Star Butterflies automatically track and attack a target, dealing Spectro DMG. If there are already 5 Collapsed Cores, Shorekeeper's next Normal Attack hit will instantly convert a Collapsed Core into a Flare Star Butterfly. Illation: When Shorekeeper has 5 segments of Empirical Data, casting Heavy Attack will consume all segments to pull in nearby targets, dealing Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies. Transmutation: When Shorekeeper has 5 segments of Empirical Data, casting Mid-air Attack will consume all segments to deal Spectro DMG. Meanwhile, all generated Collapsed Cores will instantly transform into Flare Star Butterflies. Quickly press the Normal Attack Button afterward to perform Basic Attack Stage 2. Empirical Data: Shorekeeper can hold up to 5 segments of Empirical Data. - Obtain 1 segment of Empirical Data when Basic Attack Stage 1, 2, or 4 hits a target. - Obtain 2 segments of Empirical Data when Basic Attack Stage 3 hits a target. - Obtain 1 segment of Empirical Data when Mid-air Attack hits a target. - Obtain 1 segment of Empirical Data when Dodge Counter hits a target.",
+          "Type": "Forte Circuit",
+          "Level": {
+            "1": {
+              "Format": "[18.76%|37.29%]",
+              "Name": "Flare Star Butterfly DMG"
+            },
+            "2": {
+              "Format": "[9.54%*5|18.97%*5]",
+              "Name": "Illation DMG"
+            },
+            "3": {
+              "Format": "[37.20%|73.96%]",
+              "Name": "Transmutation DMG"
+            },
+            "4": {
+              "Format": "25",
+              "Name": "Illation STA Cost"
+            },
+            "5": {
+              "Format": "30",
+              "Name": "Transmutation STA Cost"
+            },
+            "6": {
+              "Format": "6",
+              "Name": "Illation Concerto Regen"
+            },
+            "7": {
+              "Format": "6",
+              "Name": "Transmutation Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1505009980": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 100,
+              "Energy": 59,
+              "HardnessLv": 10000,
+              "RateLv": "[18.76|37.29]%",
+              "ToughLv": 1876,
+              "Type": 0
+            },
+            "1505202002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 155,
+              "HardnessLv": 10000,
+              "RateLv": "[37.2|73.96]%",
+              "ToughLv": 4960,
+              "Type": 0
+            },
+            "1505211001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 40,
+              "HardnessLv": 10000,
+              "RateLv": "[9.54|18.97]%",
+              "ToughLv": 1272,
+              "Type": 1
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "MF Howler Core": 3,
+        "Shell Credit": 3900
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Binary Butterfly",
+          "Desc": "Shorekeeper summons 1 Flare Star Butterfly and 1 Dim Star Butterfly to circle the Resonator on the field for up to 30s, granting the following effects:   - If the Resonator on the field is hit or launched, tapping the Dodge Button allows the Resonator to immediately recover from the interruption, triggering a successful Dodge. The Resonator launched in the air can land on the ground standing if they are close to the ground. This effect can be triggered up to 5 time(s). - All nearby party members' DMG is Amplified by 15%.",
+          "Type": "Outro Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "Andante Helix": 3,
+        "HF Whisperin Core": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Skill": {
+        "SkillS": {
+          "Name": "Healing Bonus+",
+          "Desc": "Healing Bonus increased by 1.80%."
+        }
+      }
+    }
+  },
+  "chains": {
+    "1": {
+      "Name": "Unspoken Conjecture",
+      "Desc": "The Stellarealms generated by Resonance Liberation End Loop gain the following enhancements: - The effective range of the healing and buffs is extended by 150% - The duration is extended by 10s. - Casting Intro Skill Discernment no longer ends the existing Stellarealm."
+    },
+    "2": {
+      "Name": "Night's Gift and Refusal",
+      "Desc": "The Outer Stellarealm now increases the ATK of all team members by 40%."
+    },
+    "3": {
+      "Name": "Infinity Awaits Me",
+      "Desc": "Casting Resonance Liberation End Loop grants Shorekeeper 20 Concerto Energy. This effect can be triggered once every 25s."
+    },
+    "4": {
+      "Name": "Overflowing Quietude",
+      "Desc": "Gain 70% additional Healing Bonus when casting Resonance Skill Chaos Theory."
+    },
+    "5": {
+      "Name": "Echoes in Silence",
+      "Desc": "Extend the ranges of the pulling effect of Basic Attack Stage 3 by 50% and Illation by 30%."
+    },
+    "6": {
+      "Name": "To the New World",
+      "Desc": "Increase the DMG Multiplier of Intro Skill Discernment by 42%. Casting Intro Skill Discernment increases Shorekeeper's Crit. DMG by 500%."
+    }
+  },
+  "ascensions": {
+    "1": {
+      "LF Whisperin Core": 4,
+      "Shell Credit": 5000
+    },
+    "2": {
+      "MF Whisperin Core": 4,
+      "Nova": 4,
+      "Shell Credit": 10000,
+      "Topological Confinement": 3
+    },
+    "3": {
+      "MF Whisperin Core": 8,
+      "Nova": 8,
+      "Shell Credit": 15000,
+      "Topological Confinement": 6
+    },
+    "4": {
+      "HF Whisperin Core": 4,
+      "Nova": 12,
+      "Shell Credit": 20000,
+      "Topological Confinement": 9
+    },
+    "5": {
+      "HF Whisperin Core": 8,
+      "Nova": 16,
+      "Shell Credit": 40000,
+      "Topological Confinement": 12
+    },
+    "6": {
+      "FF Whisperin Core": 4,
+      "Nova": 20,
+      "Shell Credit": 80000,
+      "Topological Confinement": 16
+    }
+  }
+}

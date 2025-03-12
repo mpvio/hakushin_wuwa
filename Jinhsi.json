@@ -1,0 +1,1189 @@
+{
+  "id": 1304,
+  "name": "Jinhsi",
+  "rarity": 5,
+  "weapon": 1,
+  "element": 5,
+  "tags": [
+    {
+      "name": "Main Damage Dealer",
+      "desc": "Powerful damage dealer"
+    },
+    {
+      "name": "Resonance Skill DMG",
+      "desc": "Deal higher Resonance Skill DMG"
+    }
+  ],
+  "stats": {
+    "Life": 10825,
+    "Atk": 413,
+    "Def": 1259
+  },
+  "skills": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Howler Core": 9,
+        "HF Howler Core": 5,
+        "LF Howler Core": 5,
+        "MF Howler Core": 8,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900,
+        "Waveworn Residue 210": 5,
+        "Waveworn Residue 226": 5,
+        "Waveworn Residue 235": 8,
+        "Waveworn Residue 239": 11
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Slash of Breaking Dawn",
+          "Desc": "Basic Attack: Perform up to 4 consecutive strikes, dealing Spectro DMG.: Heavy Attack: Perform a charged attack at the cost of STA, dealing Spectro DMG.: Mid-air Attack: Perform a Plunging Attack while in mid-air at the cost of STA, dealing Spectro DMG.: Dodge Counter: Use Basic Attack after a successful Dodge to counterattack, dealing Spectro DMG.",
+          "Type": "Normal Attack",
+          "Level": {
+            "1": {
+              "Format": "[33.43%|66.47%]",
+              "Name": "Stage 1 DMG"
+            },
+            "2": {
+              "Format": "[19.61%+9.81%*3|38.99%+19.50%*3]",
+              "Name": "Stage 2 DMG"
+            },
+            "3": {
+              "Format": "[5.36%*7+16.07%|10.65%*7+31.94%]",
+              "Name": "Stage 3 DMG"
+            },
+            "4": {
+              "Format": "[31.74%+47.60%|63.09%+94.63%]",
+              "Name": "Stage 4 DMG"
+            },
+            "5": {
+              "Format": "[12.00%*5+18.00%+42.00%|23.86%*5+35.79%+83.51%]",
+              "Name": "Heavy Attack DMG"
+            },
+            "6": {
+              "Format": "[6.20%+12.40%+43.40%|12.33%+24.66%+86.29%]",
+              "Name": "Mid-air Attack DMG"
+            },
+            "7": {
+              "Format": "[7.38%*7+22.14%|14.68%*7+44.02%]",
+              "Name": "Dodge Counter DMG"
+            },
+            "8": {
+              "Format": "25",
+              "Name": "Heavy Attack STA Cost"
+            },
+            "9": {
+              "Format": "30",
+              "Name": "Mid-air Attack STA Cost"
+            }
+          },
+          "Damage": {
+            "1304001001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 248,
+              "Energy": 124,
+              "HardnessLv": 10000,
+              "RateLv": "[33.43|66.47]%",
+              "ToughLv": 5943,
+              "Type": 0
+            },
+            "1304002001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 146,
+              "Energy": 73,
+              "HardnessLv": 10000,
+              "RateLv": "[19.61|38.99]%",
+              "ToughLv": 3486,
+              "Type": 0
+            },
+            "1304002002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 73,
+              "Energy": 37,
+              "HardnessLv": 10000,
+              "RateLv": "[9.81|19.5]%",
+              "ToughLv": 1743,
+              "Type": 0
+            },
+            "1304003001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 40,
+              "Energy": 20,
+              "HardnessLv": 10000,
+              "RateLv": "[5.36|10.65]%",
+              "ToughLv": 952,
+              "Type": 0
+            },
+            "1304003003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 119,
+              "Energy": 60,
+              "HardnessLv": 10000,
+              "RateLv": "[16.07|31.94]%",
+              "ToughLv": 2856,
+              "Type": 0
+            },
+            "1304004001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 236,
+              "Energy": 118,
+              "HardnessLv": 10000,
+              "RateLv": "[31.74|63.09]%",
+              "ToughLv": 5642,
+              "Type": 0
+            },
+            "1304004002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 353,
+              "Energy": 177,
+              "HardnessLv": 10000,
+              "RateLv": "[47.6|94.63]%",
+              "ToughLv": 8462,
+              "Type": 0
+            },
+            "1304006001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 10,
+              "Energy": 6,
+              "HardnessLv": 10000,
+              "RateLv": "[6.2|12.33]%",
+              "ToughLv": 620,
+              "Type": 0
+            },
+            "1304006002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 20,
+              "Energy": 11,
+              "HardnessLv": 10000,
+              "RateLv": "[12.4|24.66]%",
+              "ToughLv": 1240,
+              "Type": 0
+            },
+            "1304006003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 70,
+              "Energy": 37,
+              "HardnessLv": 10000,
+              "RateLv": "[43.4|86.29]%",
+              "ToughLv": 4340,
+              "Type": 0
+            },
+            "1304100001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 80,
+              "Energy": 40,
+              "HardnessLv": 10000,
+              "RateLv": "[12|23.86]%",
+              "ToughLv": 1920,
+              "Type": 1
+            },
+            "1304100101": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 120,
+              "Energy": 60,
+              "HardnessLv": 10000,
+              "RateLv": "[18|35.79]%",
+              "ToughLv": 2880,
+              "Type": 1
+            },
+            "1304100102": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 280,
+              "Energy": 140,
+              "HardnessLv": 10000,
+              "RateLv": "[42|83.51]%",
+              "ToughLv": 6720,
+              "Type": 1
+            },
+            "1304600001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 55,
+              "Energy": 28,
+              "HardnessLv": 10000,
+              "RateLv": "[7.38|14.68]%",
+              "ToughLv": 1500,
+              "Type": 0
+            },
+            "1304600003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 164,
+              "Energy": 82,
+              "HardnessLv": 10000,
+              "RateLv": "[22.14|44.02]%",
+              "ToughLv": 4500,
+              "Type": 0
+            },
+            "1304840002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 589,
+              "Energy": 295,
+              "HardnessLv": 10000,
+              "RateLv": "[158.68|315.44]%",
+              "ToughLv": 14104,
+              "Type": 0
+            },
+            "1304840004": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 40,
+              "Energy": 20,
+              "HardnessLv": 10000,
+              "RateLv": "[10.72|21.3]%",
+              "ToughLv": 952,
+              "Type": 0
+            },
+            "1304840005": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 119,
+              "Energy": 60,
+              "HardnessLv": 10000,
+              "RateLv": "[32.14|63.88]%",
+              "ToughLv": 2856,
+              "Type": 0
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Howler Core": 3,
+        "Shell Credit": 50000,
+        "Waveworn Residue 235": 3
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Skill": {
+        "SkillS": {
+          "Name": "ATK+",
+          "Desc": "ATK increased by 1.80%."
+        }
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Howler Core": 3,
+        "Shell Credit": 50000,
+        "Waveworn Residue 235": 3
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Skill": {
+        "SkillS": {
+          "Name": "ATK+",
+          "Desc": "ATK increased by 1.80%."
+        }
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Howler Core": 3,
+        "Shell Credit": 50000,
+        "Waveworn Residue 235": 3
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Skill": {
+        "SkillS": {
+          "Name": "Crit. Rate+",
+          "Desc": "Crit. Rate increased by 1.20%."
+        }
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Howler Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000,
+        "Waveworn Residue 239": 3
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Skill": {
+        "SkillS": {
+          "Name": "Crit. Rate+",
+          "Desc": "Crit. Rate increased by 2.80%."
+        }
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Howler Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000,
+        "Waveworn Residue 239": 3
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Skill": {
+        "SkillS": {
+          "Name": "ATK+",
+          "Desc": "ATK increased by 4.20%."
+        }
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Howler Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000,
+        "Waveworn Residue 239": 3
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Skill": {
+        "SkillS": {
+          "Name": "ATK+",
+          "Desc": "ATK increased by 4.20%."
+        }
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Howler Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 100000,
+        "Waveworn Residue 239": 3
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Skill": {
+        "SkillS": {
+          "Name": "Crit. Rate+",
+          "Desc": "Crit. Rate increased by 2.80%."
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Howler Core": 9,
+        "HF Howler Core": 5,
+        "LF Howler Core": 5,
+        "MF Howler Core": 8,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900,
+        "Waveworn Residue 210": 5,
+        "Waveworn Residue 226": 5,
+        "Waveworn Residue 235": 8,
+        "Waveworn Residue 239": 11
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Trailing Lights of Eons",
+          "Desc": "Dash forward and perform consecutive strikes that inflict Spectro DMG.: Overflowing Radiance: After Jinhsi uses Basic Attack 4 or, while not in Incarnation, Intro Skill Loong's Halo, an alternative Resonance Skill Overflowing Radiance is available within 5s.Resonance Skill Overflowing Radiance inflicts Spectro DMG and sends Jinhsi into Incarnation.Can be cast in mid-air.",
+          "Type": "Resonance Skill",
+          "Level": {
+            "1": {
+              "Format": "[9.79%*4+39.15%|19.46%*4+77.84%]",
+              "Name": "Skill DMG"
+            },
+            "2": {
+              "Format": "[4.96%*4+14.88%*4+19.84%|9.87%*4+29.59%*4+39.45%]",
+              "Name": "Overflowing Radiance DMG"
+            },
+            "3": {
+              "Format": "10s",
+              "Name": "Incarnation Duration"
+            },
+            "4": {
+              "Format": "3s",
+              "Name": "Cooldown"
+            },
+            "5": {
+              "Format": "12s",
+              "Name": "Overflowing Radiance Cooldown"
+            },
+            "6": {
+              "Format": "4",
+              "Name": "Overflowing Radiance Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1304200001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 55,
+              "Energy": 28,
+              "HardnessLv": 10000,
+              "RateLv": "[9.79|19.46]%",
+              "ToughLv": 2500,
+              "Type": 4
+            },
+            "1304200002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 55,
+              "Energy": 28,
+              "HardnessLv": 10000,
+              "RateLv": "[9.79|19.46]%",
+              "ToughLv": 2500,
+              "Type": 4
+            },
+            "1304200003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 55,
+              "Energy": 28,
+              "HardnessLv": 10000,
+              "RateLv": "[9.79|19.46]%",
+              "ToughLv": 2500,
+              "Type": 4
+            },
+            "1304200004": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 55,
+              "Energy": 28,
+              "HardnessLv": 10000,
+              "RateLv": "[9.79|19.46]%",
+              "ToughLv": 2500,
+              "Type": 4
+            },
+            "1304200005": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 218,
+              "Energy": 109,
+              "HardnessLv": 10000,
+              "RateLv": "[39.15|77.84]%",
+              "ToughLv": 10000,
+              "Type": 4
+            },
+            "1304200010": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 7,
+              "HardnessLv": 10000,
+              "RateLv": "[4.96|9.87]%",
+              "ToughLv": 1000,
+              "Type": 4
+            },
+            "1304200011": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 7,
+              "HardnessLv": 10000,
+              "RateLv": "[4.96|9.87]%",
+              "ToughLv": 1000,
+              "Type": 4
+            },
+            "1304200012": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 7,
+              "HardnessLv": 10000,
+              "RateLv": "[4.96|9.87]%",
+              "ToughLv": 1000,
+              "Type": 4
+            },
+            "1304200013": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 7,
+              "HardnessLv": 10000,
+              "RateLv": "[4.96|9.87]%",
+              "ToughLv": 1000,
+              "Type": 4
+            },
+            "1304200014": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 19,
+              "HardnessLv": 10000,
+              "RateLv": "[14.88|29.59]%",
+              "ToughLv": 3000,
+              "Type": 4
+            },
+            "1304200015": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 19,
+              "HardnessLv": 10000,
+              "RateLv": "[14.88|29.59]%",
+              "ToughLv": 3000,
+              "Type": 4
+            },
+            "1304200016": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 19,
+              "HardnessLv": 10000,
+              "RateLv": "[14.88|29.59]%",
+              "ToughLv": 3000,
+              "Type": 4
+            },
+            "1304200017": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 19,
+              "HardnessLv": 10000,
+              "RateLv": "[14.88|29.59]%",
+              "ToughLv": 3000,
+              "Type": 4
+            },
+            "1304200018": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 25,
+              "HardnessLv": 10000,
+              "RateLv": "[19.84|39.45]%",
+              "ToughLv": 4000,
+              "Type": 4
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Howler Core": 9,
+        "HF Howler Core": 5,
+        "LF Howler Core": 5,
+        "MF Howler Core": 8,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900,
+        "Waveworn Residue 210": 5,
+        "Waveworn Residue 226": 5,
+        "Waveworn Residue 235": 8,
+        "Waveworn Residue 239": 11
+      },
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Purge of Light",
+          "Desc": "Unleash the power of invocation to deal Spectro DMG.Can be cast in mid-air.",
+          "Type": "Resonance Liberation",
+          "Level": {
+            "1": {
+              "Format": "[251.40%+586.60%|499.81%+1166.22%]",
+              "Name": "Skill DMG"
+            },
+            "2": {
+              "Format": "24s",
+              "Name": "Cooldown"
+            },
+            "3": {
+              "Format": "150",
+              "Name": "Resonance Cost"
+            },
+            "4": {
+              "Format": "20",
+              "Name": "Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1304300001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[251.4|499.81]%",
+              "ToughLv": 12000,
+              "Type": 2
+            },
+            "1304300002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[553.08|1099.58]%",
+              "ToughLv": 12000,
+              "Type": 2
+            },
+            "1304300003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[586.6|1166.22]%",
+              "ToughLv": 28000,
+              "Type": 2
+            },
+            "1304300004": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[1290.52|2565.69]%",
+              "ToughLv": 28000,
+              "Type": 2
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "MF Howler Core": 6,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 13900,
+        "Waveworn Residue 226": 3
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Radiant Surge",
+          "Desc": "Jinhsi's Spectro DMG Bonus is increased by 20%.",
+          "Type": "Inherent Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "HF Howler Core": 3,
+        "MF Howler Core": 3,
+        "Sentinel's Dagger": 1,
+        "Shell Credit": 23900,
+        "Waveworn Residue 235": 3
+      },
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Converged Flash",
+          "Desc": "DMG Multiplier of Intro Skill Loong's Halo is increased by 50%.",
+          "Type": "Inherent Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Howler Core": 9,
+        "HF Howler Core": 5,
+        "LF Howler Core": 5,
+        "MF Howler Core": 8,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900,
+        "Waveworn Residue 210": 5,
+        "Waveworn Residue 226": 5,
+        "Waveworn Residue 235": 8,
+        "Waveworn Residue 239": 11
+      },
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Loong's Halo",
+          "Desc": "Attack the target, dealing Spectro DMG.",
+          "Type": "Intro Skill",
+          "Level": {
+            "1": {
+              "Format": "[80.00%|159.05%]",
+              "Name": "Skill DMG"
+            },
+            "2": {
+              "Format": "10",
+              "Name": "Concerto Regen"
+            }
+          },
+          "Damage": {
+            "1304402001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 1000,
+              "HardnessLv": 10000,
+              "RateLv": "[80|159.05]%",
+              "ToughLv": 10000,
+              "Type": 3
+            },
+            "1304402002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 1000,
+              "HardnessLv": 10000,
+              "RateLv": "[120|238.58]%",
+              "ToughLv": 10000,
+              "Type": 3
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Howler Core": 9,
+        "HF Howler Core": 5,
+        "LF Howler Core": 5,
+        "MF Howler Core": 8,
+        "Sentinel's Dagger": 4,
+        "Shell Credit": 283900,
+        "Waveworn Residue 210": 5,
+        "Waveworn Residue 226": 5,
+        "Waveworn Residue 235": 8,
+        "Waveworn Residue 239": 11
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Luminal Synthesis",
+          "Desc": "Incarnation: While in Incarnation: - Alternative Basic Attack \"Incarnation - Basic Attack\" becomes available. Perform up to 4 consecutive strikes, dealing Spectro DMG considered as Resonance Skill DMG. The basic attack cycle of this will not be reset. Can be cast in mid-air. - Alternative Resonance Skill \"Crescent Divinity\" becomes available. Deal Spectro DMG. Can be cast in mid-air. - Alternative Heavy Attack \"Incarnation - Heavy Attack\" becomes available. Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG. - Alternative Dodge \"Incarnation - Dodge\" is available while in mid-air. Can be cast multiple times at the cost of Stamina. - Alternative Dodge Counter \"Incarnation - Dodge Counter\" becomes available. Deal Spectro DMG.Can be cast in mid-air.: Resonance Skill - Illuminous Epiphany: After Stage 4 of Incarnation - Basic Attack, Incarnation terminates and Jinhsi gains Ordination Glow. Can be cast in mid-air.While Ordination Glow lasts: - Basic Attack is replaced with Heavy Attack \"Incarnation - Heavy Attack\". Attack the target in mid-air at the cost of Stamina, dealing Spectro DMG. - Resonance Skill is replaced with Resonance Skill \"Illuminous Epiphany\". Send out Solar Flare that detonates as Stella Glamor, dealing Spectro DMG after a short delay. Consume up to 50 Incandescence, with each point of Incandescence granting bonus DMG Multiplier percentage to Stella Glamor.Can be cast in mid-air. - After casting Resonance Skill Illuminous Epiphany, Jinhsi gains Unison. This can be triggered once every 25s.: Unison: While Jinhsi has Unison, switching to other Resonators will remove Jinhsi's Unison to trigger Jinhsi's Outro Skill and the incoming Resonator's Intro Skill. Unison will be consumed in priority in place of Concerto Energy when Concerto Energy is full.: Incandescence: Jinhsi can hold up to 50 Incandescence.When Jinhsi is in the party, all nearby Resonators in the party gain Eras in Unity.Eras in Unity provides 2 independent effects:: Jinhsi gains 1 Incandescence anytime Resonators in the party inflict Attribute DMG. This effect may be triggered by damage of the same Attribute for up to 1 time(s) every 3s. Additionally, Jinhsi gains 2 Incandescence when Resonators in the party damage the enemy with Coordinated Attacks. This effect may be triggered by Coordinated Attacks of the same Attribute for up to 1 time(s) every 3s.",
+          "Type": "Forte Circuit",
+          "Level": {
+            "1": {
+              "Format": "[44.58%|88.62%]",
+              "Name": "Incarnation - Basic Attack 1 DMG"
+            },
+            "10": {
+              "Format": "[22.40%|44.54%]",
+              "Name": "Additional multiplier per Incandescence"
+            },
+            "11": {
+              "Format": "30",
+              "Name": "Incarnation - Heavy Attack STA Cost"
+            },
+            "12": {
+              "Format": "20",
+              "Name": "Incarnation - Dodge STA Cost"
+            },
+            "13": {
+              "Format": "5s",
+              "Name": "Unison Duration"
+            },
+            "15": {
+              "Format": "10s",
+              "Name": "Crescent Divinity Cooldown"
+            },
+            "16": {
+              "Format": "8",
+              "Name": "Crescent Divinity Concerto Regen"
+            },
+            "17": {
+              "Format": "20",
+              "Name": "Illuminous Epiphany Concerto Regen"
+            },
+            "2": {
+              "Format": "[39.22%+13.08%+13.08%|77.97%+25.99%+25.99%]",
+              "Name": "Incarnation - Basic Attack 2 DMG"
+            },
+            "3": {
+              "Format": "[50.02%+33.35%|99.44%+66.30%]",
+              "Name": "Incarnation - Basic Attack 3 DMG"
+            },
+            "4": {
+              "Format": "[9.39%*6+37.56%|18.67%*6+74.67%]",
+              "Name": "Incarnation - Basic Attack 4 DMG"
+            },
+            "5": {
+              "Format": "[24.00%+56.00%|47.72%+111.34%]",
+              "Name": "Incarnation - Heavy Attack DMG"
+            },
+            "6": {
+              "Format": "[22.08%+16.56%*2+55.19%|43.89%+32.92%*2+109.71%]",
+              "Name": "Incarnation - Dodge Counter DMG"
+            },
+            "7": {
+              "Format": "[50.68%+38.01%*2+126.70%|100.76%+75.57%*2+251.90%]",
+              "Name": "Crescent Divinity DMG"
+            },
+            "8": {
+              "Format": "[10.00%*6|19.89%*6]",
+              "Name": "Illuminous Epiphany: Solar Flare DMG"
+            },
+            "9": {
+              "Format": "[175.00%|347.92%]",
+              "Name": "Illuminous Epiphany: Stella Glamor DMG"
+            }
+          },
+          "Damage": {
+            "1304101002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 124,
+              "Energy": 124,
+              "HardnessLv": 10000,
+              "RateLv": "[44.58|88.62]%",
+              "ToughLv": 5943,
+              "Type": 4
+            },
+            "1304102001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 109,
+              "Energy": 109,
+              "HardnessLv": 10000,
+              "RateLv": "[39.22|77.97]%",
+              "ToughLv": 5229,
+              "Type": 4
+            },
+            "1304102002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 37,
+              "Energy": 37,
+              "HardnessLv": 10000,
+              "RateLv": "[13.08|25.99]%",
+              "ToughLv": 1743,
+              "Type": 4
+            },
+            "1304102003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 37,
+              "Energy": 37,
+              "HardnessLv": 10000,
+              "RateLv": "[13.08|25.99]%",
+              "ToughLv": 1743,
+              "Type": 4
+            },
+            "1304103001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 139,
+              "Energy": 139,
+              "HardnessLv": 10000,
+              "RateLv": "[50.02|99.44]%",
+              "ToughLv": 6669,
+              "Type": 4
+            },
+            "1304103002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 93,
+              "Energy": 93,
+              "HardnessLv": 10000,
+              "RateLv": "[33.35|66.3]%",
+              "ToughLv": 4446,
+              "Type": 4
+            },
+            "1304104003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 27,
+              "Energy": 27,
+              "HardnessLv": 10000,
+              "RateLv": "[9.39|18.67]%",
+              "ToughLv": 1252,
+              "Type": 4
+            },
+            "1304104004": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 105,
+              "Energy": 105,
+              "HardnessLv": 10000,
+              "RateLv": "[37.56|74.67]%",
+              "ToughLv": 5008,
+              "Type": 4
+            },
+            "1304106001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 60,
+              "Energy": 60,
+              "HardnessLv": 10000,
+              "RateLv": "[24|47.72]%",
+              "ToughLv": 2400,
+              "Type": 0
+            },
+            "1304106002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 140,
+              "Energy": 140,
+              "HardnessLv": 10000,
+              "RateLv": "[56|111.34]%",
+              "ToughLv": 5600,
+              "Type": 0
+            },
+            "1304110001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 64,
+              "HardnessLv": 10000,
+              "RateLv": "[50.68|100.76]%",
+              "ToughLv": 4000,
+              "Type": 4
+            },
+            "1304110002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 48,
+              "HardnessLv": 10000,
+              "RateLv": "[38.01|75.57]%",
+              "ToughLv": 3000,
+              "Type": 4
+            },
+            "1304110003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 159,
+              "HardnessLv": 10000,
+              "RateLv": "[126.7|251.9]%",
+              "ToughLv": 10000,
+              "Type": 4
+            },
+            "1304310001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 33,
+              "HardnessLv": 10000,
+              "RateLv": "[10|19.89]%",
+              "ToughLv": 852,
+              "Type": 4
+            },
+            "1304310003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 567,
+              "HardnessLv": 10000,
+              "RateLv": "[175|347.92]%",
+              "ToughLv": 14894,
+              "Type": 4
+            },
+            "1304310011": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 33,
+              "HardnessLv": 10000,
+              "RateLv": "[14.5|28.83]%",
+              "ToughLv": 852,
+              "Type": 4
+            },
+            "1304310013": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 0,
+              "Energy": 567,
+              "HardnessLv": 10000,
+              "RateLv": "[253.75|504.49]%",
+              "ToughLv": 14894,
+              "Type": 4
+            },
+            "1304601001": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 62,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[22.08|43.89]%",
+              "ToughLv": 3000,
+              "Type": 0
+            },
+            "1304601002": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 46,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[16.56|32.92]%",
+              "ToughLv": 2250,
+              "Type": 0
+            },
+            "1304601003": {
+              "RelatedProperty": "ATK",
+              "Element": 5,
+              "ElementPower": 154,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[55.19|109.71]%",
+              "ToughLv": 7500,
+              "Type": 0
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "MF Howler Core": 3,
+        "Shell Credit": 3900
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Temporal Bender",
+          "Desc": "Summoning the power homologous with the Sentinel, Jinhsi may now gain Incandescence via Eras in Unity from damage of the same Attribute more effectively, at 1 time(s) every 1s for 20s.",
+          "Type": "Outro Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Howler Core": 3,
+        "Shell Credit": 50000,
+        "Waveworn Residue 235": 3
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Skill": {
+        "SkillS": {
+          "Name": "Crit. Rate+",
+          "Desc": "Crit. Rate increased by 1.20%."
+        }
+      }
+    }
+  },
+  "chains": {
+    "1": {
+      "Name": "Abyssal Ascension",
+      "Desc": "When casting Basic Attack \"Incarnation - Basic Attack\" or Resonance Skill Crescent Divinity, Jinhsi gains one stack of Herald of Revival, stacking up to 4 times and lasting for 6s. When casting Resonance Skill Illuminous Epiphany, Jinhsi consumes all stacks of Herald of Revival. Each stack increases the damage of Resonance Skill Illuminous Epiphany by 20%."
+    },
+    "2": {
+      "Name": "Chronofrost Repose",
+      "Desc": "Jinhsi restores 50 Incandescence while staying out of combat for more than 4s. This effect can only be triggered 1 time(s) every 4s."
+    },
+    "3": {
+      "Name": "Celestial Incarnate",
+      "Desc": "Jinhsi gains one stack of Immortal's Descendancy after casting Intro Skill Loong's Halo. Each stack of Immortal's Descendancy increases Jinhsi's ATK by 25%, stacking up to 2 time(s) and lasting for 20s."
+    },
+    "4": {
+      "Name": "Benevolent Grace",
+      "Desc": "When Jinhsi casts Resonance Liberation Purge of Light or Resonance Skill Illuminous Epiphany, all nearby Resonators on the team gain 20% Attribute DMG Bonus for 20s."
+    },
+    "5": {
+      "Name": "Frostfire Illumination",
+      "Desc": "The DMG Multiplier of Resonance Liberation Purge of Light is increased by 120%."
+    },
+    "6": {
+      "Name": "Thawing Triumph",
+      "Desc": "The DMG Multiplier of Resonance Skill Illuminous Epiphany is increased by 45% and the additional DMG Multiplier gained by consuming Incandescence is increased by 45%."
+    }
+  },
+  "ascensions": {
+    "1": {
+      "LF Howler Core": 4,
+      "Shell Credit": 5000
+    },
+    "2": {
+      "Elegy Tacet Core": 3,
+      "Loong's Pearl": 4,
+      "MF Howler Core": 4,
+      "Shell Credit": 10000
+    },
+    "3": {
+      "Elegy Tacet Core": 6,
+      "Loong's Pearl": 8,
+      "MF Howler Core": 8,
+      "Shell Credit": 15000
+    },
+    "4": {
+      "Elegy Tacet Core": 9,
+      "HF Howler Core": 4,
+      "Loong's Pearl": 12,
+      "Shell Credit": 20000
+    },
+    "5": {
+      "Elegy Tacet Core": 12,
+      "HF Howler Core": 8,
+      "Loong's Pearl": 16,
+      "Shell Credit": 40000
+    },
+    "6": {
+      "Elegy Tacet Core": 16,
+      "FF Howler Core": 4,
+      "Loong's Pearl": 20,
+      "Shell Credit": 80000
+    }
+  }
+}
