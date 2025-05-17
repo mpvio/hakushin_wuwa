@@ -1,0 +1,1672 @@
+{
+  "id": 1409,
+  "name": "Cartethyia",
+  "rarity": 5,
+  "weapon": 2,
+  "element": 4,
+  "tags": [
+    {
+      "name": "DMG Amplification",
+      "desc": "Provides DMG Amplification for a specific Resonator in the team"
+    },
+    {
+      "name": "Main Damage Dealer",
+      "desc": "Powerful damage dealer"
+    },
+    {
+      "name": "Aero Erosion",
+      "desc": "Utilizes Aero Erosion for combat advantage"
+    }
+  ],
+  "stats": {
+    "Life": 14800,
+    "Atk": 313,
+    "Def": 1100
+  },
+  "skills": {
+    "1": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Tidal Residuum": 9,
+        "HF Tidal Residuum": 5,
+        "Heterized Metallic Drip": 11,
+        "Inert Metallic Drip": 5,
+        "LF Tidal Residuum": 5,
+        "MF Howler Core": 3,
+        "MF Tidal Residuum": 5,
+        "Polarized Metallic Drip": 8,
+        "Reactive Metallic Drip": 5,
+        "Shell Credit": 283900,
+        "When Irises Bloom": 4
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Normal Attack",
+          "Level": {
+            "1": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "10": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "11": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "12": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "13": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "14": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "15": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "16": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "17": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "18": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "19": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "2": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "20": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "3": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "4": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "5": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "6": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "7": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "8": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "9": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            }
+          },
+          "Damage": {
+            "140900101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 140,
+              "Energy": 140,
+              "HardnessLv": 10000,
+              "RateLv": "[2.1|4.18]%",
+              "ToughLv": 2800,
+              "Type": 0
+            },
+            "1409001011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 140,
+              "Energy": 140,
+              "HardnessLv": 10000,
+              "RateLv": "[3.78|7.52]%",
+              "ToughLv": 2800,
+              "Type": 0
+            },
+            "140900201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 116,
+              "Energy": 116,
+              "HardnessLv": 10000,
+              "RateLv": "[1.73|3.44]%",
+              "ToughLv": 2304,
+              "Type": 0
+            },
+            "1409002011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 116,
+              "Energy": 116,
+              "HardnessLv": 10000,
+              "RateLv": "[3.12|6.19]%",
+              "ToughLv": 2304,
+              "Type": 0
+            },
+            "140900210": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 116,
+              "Energy": 116,
+              "HardnessLv": 10000,
+              "RateLv": "[1.73|3.44]%",
+              "ToughLv": 2304,
+              "Type": 0
+            },
+            "1409002101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 116,
+              "Energy": 116,
+              "HardnessLv": 10000,
+              "RateLv": "[3.12|6.19]%",
+              "ToughLv": 2304,
+              "Type": 0
+            },
+            "140900211": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 154,
+              "Energy": 154,
+              "HardnessLv": 10000,
+              "RateLv": "[2.31|4.59]%",
+              "ToughLv": 3072,
+              "Type": 0
+            },
+            "1409002111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 154,
+              "Energy": 154,
+              "HardnessLv": 10000,
+              "RateLv": "[4.15|8.25]%",
+              "ToughLv": 3072,
+              "Type": 0
+            },
+            "140900301": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 101,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 126,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[3.39|6.73]%",
+              "ToughLv": 4000,
+              "Type": 0
+            },
+            "140900311": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 101,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 126,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[3.39|6.73]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900321": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 151,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003211": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 126,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[3.39|6.73]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900331": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 151,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003311": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 126,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[3.39|6.73]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900341": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 161,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003411": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 201,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[2.99|5.94]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900351": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 161,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003511": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 201,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[2.99|5.94]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900361": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 241,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003611": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 201,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[2.99|5.94]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900371": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 241,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[1.88|3.74]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "1409003711": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 201,
+              "Energy": 126,
+              "HardnessLv": 10000,
+              "RateLv": "[2.99|5.94]%",
+              "ToughLv": 2505,
+              "Type": 0
+            },
+            "140900401": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 74,
+              "Energy": 74,
+              "HardnessLv": 10000,
+              "RateLv": "[1.11|2.2]%",
+              "ToughLv": 1474,
+              "Type": 0
+            },
+            "1409004011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 74,
+              "Energy": 74,
+              "HardnessLv": 10000,
+              "RateLv": "[1.99|3.96]%",
+              "ToughLv": 1474,
+              "Type": 0
+            },
+            "140900402": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 221,
+              "Energy": 221,
+              "HardnessLv": 10000,
+              "RateLv": "[3.32|6.6]%",
+              "ToughLv": 4420,
+              "Type": 0
+            },
+            "1409004021": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 221,
+              "Energy": 221,
+              "HardnessLv": 10000,
+              "RateLv": "[5.97|11.87]%",
+              "ToughLv": 4420,
+              "Type": 0
+            },
+            "140900411": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 74,
+              "Energy": 74,
+              "HardnessLv": 10000,
+              "RateLv": "[1.11|2.2]%",
+              "ToughLv": 1474,
+              "Type": 0
+            },
+            "140900412": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 221,
+              "Energy": 221,
+              "HardnessLv": 10000,
+              "RateLv": "[3.32|6.6]%",
+              "ToughLv": 4420,
+              "Type": 0
+            },
+            "140902101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409021011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[21.24|42.23]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902102": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902110": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409021101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[21.24|42.23]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409021111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[21.24|42.23]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902112": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409021121": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[21.24|42.23]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902113": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902114": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902115": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 266,
+              "Energy": 266,
+              "HardnessLv": 10000,
+              "RateLv": "[5.31|10.56]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902120": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 89,
+              "Energy": 89,
+              "HardnessLv": 10000,
+              "RateLv": "[2.66|5.28]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409021201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 89,
+              "Energy": 89,
+              "HardnessLv": 10000,
+              "RateLv": "[10.62|21.12]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902122": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 89,
+              "Energy": 89,
+              "HardnessLv": 10000,
+              "RateLv": "[2.66|5.28]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902130": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 89,
+              "Energy": 89,
+              "HardnessLv": 10000,
+              "RateLv": "[3.54|7.04]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409021301": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 89,
+              "Energy": 89,
+              "HardnessLv": 10000,
+              "RateLv": "[14.16|28.16]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "140902132": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 89,
+              "Energy": 89,
+              "HardnessLv": 10000,
+              "RateLv": "[3.54|7.04]%",
+              "ToughLv": 5310,
+              "Type": 0
+            },
+            "1409041011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 84,
+              "Energy": 84,
+              "HardnessLv": 10000,
+              "RateLv": "[3.34|6.63]%",
+              "ToughLv": 1667,
+              "Type": 1
+            },
+            "1409041021": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 1
+            },
+            "1409041111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 250,
+              "Energy": 250,
+              "HardnessLv": 10000,
+              "RateLv": "[10|19.89]%",
+              "ToughLv": 5000,
+              "Type": 1
+            },
+            "1409042011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 334,
+              "HardnessLv": 10000,
+              "RateLv": "[3.34|6.63]%",
+              "ToughLv": 1460,
+              "Type": 3
+            },
+            "1409042021": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 3
+            },
+            "1409042111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 1000,
+              "HardnessLv": 10000,
+              "RateLv": "[10|19.89]%",
+              "ToughLv": 4380,
+              "Type": 3
+            }
+          }
+        }
+      }
+    },
+    "10": {
+      "ParentNodes": [
+        2
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Tidal Residuum": 3,
+        "Polarized Metallic Drip": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "11": {
+      "ParentNodes": [
+        3
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Tidal Residuum": 3,
+        "Polarized Metallic Drip": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500005,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "12": {
+      "ParentNodes": [
+        6
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Tidal Residuum": 3,
+        "Polarized Metallic Drip": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "13": {
+      "ParentNodes": [
+        9
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Tidal Residuum": 3,
+        "Heterized Metallic Drip": 3,
+        "Shell Credit": 100000,
+        "When Irises Bloom": 1
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "14": {
+      "ParentNodes": [
+        10
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Tidal Residuum": 3,
+        "Heterized Metallic Drip": 3,
+        "Shell Credit": 100000,
+        "When Irises Bloom": 1
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "15": {
+      "ParentNodes": [
+        11
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Tidal Residuum": 3,
+        "Heterized Metallic Drip": 3,
+        "Shell Credit": 100000,
+        "When Irises Bloom": 1
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500007,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "16": {
+      "ParentNodes": [
+        12
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "FF Tidal Residuum": 3,
+        "Heterized Metallic Drip": 3,
+        "Shell Credit": 100000,
+        "When Irises Bloom": 1
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 500008,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    },
+    "2": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Tidal Residuum": 9,
+        "HF Tidal Residuum": 5,
+        "Heterized Metallic Drip": 11,
+        "Inert Metallic Drip": 5,
+        "LF Tidal Residuum": 5,
+        "MF Howler Core": 3,
+        "MF Tidal Residuum": 5,
+        "Polarized Metallic Drip": 8,
+        "Reactive Metallic Drip": 5,
+        "Shell Credit": 283900,
+        "When Irises Bloom": 4
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Resonance Skill",
+          "Level": {
+            "6": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            }
+          },
+          "Damage": {
+            "140901101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 100,
+              "Energy": 280,
+              "HardnessLv": 10000,
+              "RateLv": "[2.1|4.18]%",
+              "ToughLv": 4000,
+              "Type": 0
+            },
+            "140901102": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 4000,
+              "Type": 0
+            },
+            "140901110": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 700,
+              "Energy": 360,
+              "HardnessLv": 10000,
+              "RateLv": "[2.7|5.37]%",
+              "ToughLv": 3000,
+              "Type": 0
+            }
+          }
+        }
+      }
+    },
+    "3": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Tidal Residuum": 9,
+        "HF Tidal Residuum": 5,
+        "Heterized Metallic Drip": 11,
+        "Inert Metallic Drip": 5,
+        "LF Tidal Residuum": 5,
+        "MF Howler Core": 3,
+        "MF Tidal Residuum": 5,
+        "Polarized Metallic Drip": 8,
+        "Reactive Metallic Drip": 5,
+        "Shell Credit": 283900,
+        "When Irises Bloom": 4
+      },
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Resonance Liberation",
+          "Level": {
+            "1": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "6": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            }
+          },
+          "Damage": {
+            "140900001": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 2
+            },
+            "1409000011": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 2
+            },
+            "140900002": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 286,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[8.52|16.93]%",
+              "ToughLv": 5715,
+              "Type": 2
+            },
+            "1409000021": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 286,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[17.03|33.85]%",
+              "ToughLv": 5715,
+              "Type": 2
+            }
+          }
+        }
+      }
+    },
+    "4": {
+      "ParentNodes": [
+        7
+      ],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "MF Howler Core": 3,
+        "MF Tidal Residuum": 3,
+        "Reactive Metallic Drip": 3,
+        "Shell Credit": 13900,
+        "When Irises Bloom": 1
+      },
+      "Coordinate": 2,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Inherent Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "5": {
+      "ParentNodes": [
+        4
+      ],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "HF Tidal Residuum": 3,
+        "MF Howler Core": 3,
+        "Polarized Metallic Drip": 3,
+        "Shell Credit": 23900,
+        "When Irises Bloom": 1
+      },
+      "Coordinate": 3,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Inherent Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "6": {
+      "ParentNodes": [],
+      "NodeType": 2,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Tidal Residuum": 9,
+        "HF Tidal Residuum": 5,
+        "Heterized Metallic Drip": 11,
+        "Inert Metallic Drip": 5,
+        "LF Tidal Residuum": 5,
+        "MF Howler Core": 3,
+        "MF Tidal Residuum": 5,
+        "Polarized Metallic Drip": 8,
+        "Reactive Metallic Drip": 5,
+        "Shell Credit": 283900,
+        "When Irises Bloom": 4
+      },
+      "Coordinate": 4,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Intro Skill",
+          "Level": {
+            "1": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "2": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "8": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            }
+          },
+          "Damage": {
+            "140904201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 167,
+              "Energy": 334,
+              "HardnessLv": 10000,
+              "RateLv": "[0.84|1.66]%",
+              "ToughLv": 1460,
+              "Type": 3
+            },
+            "140904202": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 3
+            },
+            "140904211": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 500,
+              "Energy": 1000,
+              "HardnessLv": 10000,
+              "RateLv": "[2.5|4.98]%",
+              "ToughLv": 4380,
+              "Type": 3
+            }
+          }
+        }
+      }
+    },
+    "7": {
+      "ParentNodes": [],
+      "NodeType": 1,
+      "Consume": {
+        "Adagio Helix": 2,
+        "FF Tidal Residuum": 9,
+        "HF Tidal Residuum": 5,
+        "Heterized Metallic Drip": 11,
+        "Inert Metallic Drip": 5,
+        "LF Tidal Residuum": 5,
+        "MF Howler Core": 3,
+        "MF Tidal Residuum": 5,
+        "Polarized Metallic Drip": 8,
+        "Reactive Metallic Drip": 5,
+        "Shell Credit": 283900,
+        "When Irises Bloom": 4
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Forte Circuit",
+          "Level": {
+            "1": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "2": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            },
+            "3": {
+              "Format": "Stay tuned",
+              "Name": "Stay tuned"
+            }
+          },
+          "Damage": {
+            "140920101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 45,
+              "Energy": 45,
+              "HardnessLv": 10000,
+              "RateLv": "[1.69|3.35]%",
+              "ToughLv": 900,
+              "Type": 0
+            },
+            "140920102": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 105,
+              "Energy": 105,
+              "HardnessLv": 10000,
+              "RateLv": "[3.93|7.8]%",
+              "ToughLv": 2100,
+              "Type": 0
+            },
+            "140920201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 77,
+              "Energy": 153,
+              "HardnessLv": 10000,
+              "RateLv": "[2.59|5.15]%",
+              "ToughLv": 4000,
+              "Type": 0
+            },
+            "140920202": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 77,
+              "Energy": 77,
+              "HardnessLv": 10000,
+              "RateLv": "[1.3|2.58]%",
+              "ToughLv": 1524,
+              "Type": 0
+            },
+            "140920203": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 115,
+              "Energy": 77,
+              "HardnessLv": 10000,
+              "RateLv": "[1.3|2.58]%",
+              "ToughLv": 1524,
+              "Type": 0
+            },
+            "140920204": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 115,
+              "Energy": 77,
+              "HardnessLv": 10000,
+              "RateLv": "[1.3|2.58]%",
+              "ToughLv": 1524,
+              "Type": 0
+            },
+            "140920301": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 91,
+              "Energy": 91,
+              "HardnessLv": 10000,
+              "RateLv": "[1.55|3.08]%",
+              "ToughLv": 1820,
+              "Type": 0
+            },
+            "140920302": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 91,
+              "Energy": 91,
+              "HardnessLv": 10000,
+              "RateLv": "[1.55|3.08]%",
+              "ToughLv": 1820,
+              "Type": 0
+            },
+            "140920303": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 137,
+              "Energy": 91,
+              "HardnessLv": 10000,
+              "RateLv": "[1.55|3.08]%",
+              "ToughLv": 1820,
+              "Type": 0
+            },
+            "140920304": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 137,
+              "Energy": 182,
+              "HardnessLv": 10000,
+              "RateLv": "[3.1|6.15]%",
+              "ToughLv": 3640,
+              "Type": 0
+            },
+            "140920311": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 91,
+              "Energy": 91,
+              "HardnessLv": 10000,
+              "RateLv": "[1.55|3.08]%",
+              "ToughLv": 1820,
+              "Type": 0
+            },
+            "140920312": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 91,
+              "Energy": 91,
+              "HardnessLv": 10000,
+              "RateLv": "[1.55|3.08]%",
+              "ToughLv": 1820,
+              "Type": 0
+            },
+            "140920313": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 137,
+              "Energy": 91,
+              "HardnessLv": 10000,
+              "RateLv": "[1.55|3.08]%",
+              "ToughLv": 1820,
+              "Type": 0
+            },
+            "140920314": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 137,
+              "Energy": 182,
+              "HardnessLv": 10000,
+              "RateLv": "[3.1|6.15]%",
+              "ToughLv": 3640,
+              "Type": 0
+            },
+            "140920421": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140920431": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 133,
+              "Energy": 133,
+              "HardnessLv": 10000,
+              "RateLv": "[3.15|6.27]%",
+              "ToughLv": 2650,
+              "Type": 0
+            },
+            "140920432": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140920531": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 109,
+              "Energy": 73,
+              "HardnessLv": 10000,
+              "RateLv": "[6.89|13.69]%",
+              "ToughLv": 4000,
+              "Type": 0
+            },
+            "140920541": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 127,
+              "Energy": 145,
+              "HardnessLv": 10000,
+              "RateLv": "[13.77|27.38]%",
+              "ToughLv": 2896,
+              "Type": 0
+            },
+            "140920551": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140920601": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 152,
+              "Energy": 152,
+              "HardnessLv": 10000,
+              "RateLv": "[5.14|10.22]%",
+              "ToughLv": 4000,
+              "Type": 0
+            },
+            "140921101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 106,
+              "Energy": 106,
+              "HardnessLv": 10000,
+              "RateLv": "[4.55|9.03]%",
+              "ToughLv": 2106,
+              "Type": 1
+            },
+            "140921102": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 246,
+              "Energy": 246,
+              "HardnessLv": 10000,
+              "RateLv": "[10.6|21.07]%",
+              "ToughLv": 4914,
+              "Type": 1
+            },
+            "140921201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 72,
+              "Energy": 192,
+              "HardnessLv": 10000,
+              "RateLv": "[8.27|16.43]%",
+              "ToughLv": 4000,
+              "Type": 1
+            },
+            "140921301": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 336,
+              "Energy": 96,
+              "HardnessLv": 10000,
+              "RateLv": "[4.14|8.22]%",
+              "ToughLv": 1916,
+              "Type": 1
+            },
+            "140921401": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 106,
+              "Energy": 106,
+              "HardnessLv": 10000,
+              "RateLv": "[4.55|9.03]%",
+              "ToughLv": 2106,
+              "Type": 1
+            },
+            "140921402": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 246,
+              "Energy": 246,
+              "HardnessLv": 10000,
+              "RateLv": "[10.6|21.07]%",
+              "ToughLv": 4914,
+              "Type": 1
+            },
+            "140925101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 35,
+              "Energy": 35,
+              "HardnessLv": 10000,
+              "RateLv": "[1.87|3.72]%",
+              "ToughLv": 4000,
+              "Type": 4
+            },
+            "140925102": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 4
+            },
+            "140925103": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 321,
+              "Energy": 321,
+              "HardnessLv": 10000,
+              "RateLv": "[17.44|34.68]%",
+              "ToughLv": 6419,
+              "Type": 4
+            },
+            "140925201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 69,
+              "Energy": 35,
+              "HardnessLv": 10000,
+              "RateLv": "[1.87|3.72]%",
+              "ToughLv": 688,
+              "Type": 0
+            },
+            "140925202": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140925221": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 107,
+              "Energy": 130,
+              "HardnessLv": 10000,
+              "RateLv": "[7.06|14.04]%",
+              "ToughLv": 2599,
+              "Type": 0
+            },
+            "140925222": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 642,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140927101": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 80,
+              "Energy": 80,
+              "HardnessLv": 10000,
+              "RateLv": "[2.12|4.21]%",
+              "ToughLv": 1596,
+              "Type": 0
+            },
+            "140927102": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 80,
+              "Energy": 80,
+              "HardnessLv": 10000,
+              "RateLv": "[2.12|4.21]%",
+              "ToughLv": 1596,
+              "Type": 0
+            },
+            "140927103": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 80,
+              "Energy": 80,
+              "HardnessLv": 10000,
+              "RateLv": "[2.12|4.21]%",
+              "ToughLv": 1596,
+              "Type": 0
+            },
+            "140927104": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 80,
+              "Energy": 80,
+              "HardnessLv": 10000,
+              "RateLv": "[2.12|4.21]%",
+              "ToughLv": 1596,
+              "Type": 0
+            },
+            "140927105": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 80,
+              "Energy": 80,
+              "HardnessLv": 10000,
+              "RateLv": "[2.12|4.21]%",
+              "ToughLv": 1596,
+              "Type": 0
+            },
+            "140927110": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 103,
+              "Energy": 103,
+              "HardnessLv": 10000,
+              "RateLv": "[5.34|10.61]%",
+              "ToughLv": 2055,
+              "Type": 0
+            },
+            "140927111": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 103,
+              "Energy": 206,
+              "HardnessLv": 10000,
+              "RateLv": "[10.67|21.22]%",
+              "ToughLv": 4110,
+              "Type": 0
+            },
+            "140927120": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 103,
+              "Energy": 103,
+              "HardnessLv": 10000,
+              "RateLv": "[5.34|10.61]%",
+              "ToughLv": 2055,
+              "Type": 0
+            },
+            "140927121": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 103,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140927201": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 0,
+              "Energy": 0,
+              "HardnessLv": 10000,
+              "RateLv": "[0|0]%",
+              "ToughLv": 0,
+              "Type": 0
+            },
+            "140927210": {
+              "RelatedProperty": "HP",
+              "Element": 4,
+              "ElementPower": 96,
+              "Energy": 96,
+              "HardnessLv": 10000,
+              "RateLv": "[2.53|5.03]%",
+              "ToughLv": 1910,
+              "Type": 0
+            }
+          }
+        }
+      }
+    },
+    "8": {
+      "ParentNodes": [],
+      "NodeType": 3,
+      "Consume": {
+        "Adagio Helix": 2,
+        "MF Howler Core": 3,
+        "Shell Credit": 3900
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 0,
+      "Skill": {
+        "SkillL": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned",
+          "Type": "Outro Skill",
+          "Level": {},
+          "Damage": {}
+        }
+      }
+    },
+    "9": {
+      "ParentNodes": [
+        1
+      ],
+      "NodeType": 4,
+      "Consume": {
+        "HF Tidal Residuum": 3,
+        "Polarized Metallic Drip": 3,
+        "Shell Credit": 50000
+      },
+      "Coordinate": 1,
+      "UnLockCondition": 500006,
+      "Skill": {
+        "SkillS": {
+          "Name": "Stay tuned",
+          "Desc": "Stay tuned"
+        }
+      }
+    }
+  },
+  "chains": {
+    "1": {
+      "Name": "Stay tuned",
+      "Desc": "Stay tuned"
+    },
+    "2": {
+      "Name": "Stay tuned",
+      "Desc": "Stay tuned"
+    },
+    "3": {
+      "Name": "Stay tuned",
+      "Desc": "Stay tuned"
+    },
+    "4": {
+      "Name": "Stay tuned",
+      "Desc": "Stay tuned"
+    },
+    "5": {
+      "Name": "Stay tuned",
+      "Desc": "Stay tuned"
+    },
+    "6": {
+      "Name": "Stay tuned",
+      "Desc": "Stay tuned"
+    }
+  },
+  "ascensions": {
+    "1": {
+      "LF Tidal Residuum": 4,
+      "Shell Credit": 5000
+    },
+    "2": {
+      "MF Tidal Residuum": 4,
+      "Shell Credit": 10000,
+      "Stay tuned": 4
+    },
+    "3": {
+      "MF Tidal Residuum": 8,
+      "Shell Credit": 15000,
+      "Stay tuned": 8
+    },
+    "4": {
+      "HF Tidal Residuum": 4,
+      "Shell Credit": 20000,
+      "Stay tuned": 12
+    },
+    "5": {
+      "HF Tidal Residuum": 8,
+      "Shell Credit": 40000,
+      "Stay tuned": 16
+    },
+    "6": {
+      "FF Tidal Residuum": 4,
+      "Shell Credit": 80000,
+      "Stay tuned": 20
+    }
+  }
+}

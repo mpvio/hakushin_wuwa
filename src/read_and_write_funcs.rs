@@ -1,6 +1,6 @@
 use std::{fs::File, io::{self, BufReader, Seek, SeekFrom}};
 
-use crate::parsed_character::ParsedCharacter;
+use crate::{character_list::MinimalCharacterMap, parsed_character::ParsedCharacter};
 use serde_json::json;
 use serde_json_diff::Difference;
 
@@ -91,6 +91,21 @@ fn write_character_to_file(file: &mut File, character: &ParsedCharacter, title: 
                 println!("{title} created.");
             }
         },
+        Err(err) => {
+            println!("{:#?}", err);
+        },
+    }
+}
+
+pub fn write_character_list_to_file(map: &MinimalCharacterMap){
+    let path = "characters.json";
+    let mut file = File::create(path).unwrap();
+    let _ = file.seek(SeekFrom::Start(0));
+    match serde_json::to_writer_pretty(file, &map) {
+        Ok(_) => {
+            println!("{path} created.");
+            }
+        ,
         Err(err) => {
             println!("{:#?}", err);
         },

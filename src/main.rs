@@ -1,23 +1,39 @@
 use std::collections::BTreeMap;
 
 use character::Character;
+use character_list::MinimalCharacterMap;
 use parsed_character::ParsedCharacter;
 use parsing_funcs::{parse_ascensions, parse_chains, parse_character_skilltrees, parse_character_tag, parse_stats};
-use read_and_write_funcs::{get_ids_from_user, write_to_file};
+use read_and_write_funcs::{get_ids_from_user, write_character_list_to_file, write_to_file};
 
 pub mod character;
 pub mod parsed_character;
 pub mod parsing_funcs;
 pub mod read_and_write_funcs;
+pub mod character_list;
 
 #[tokio::main]
 async fn main() {
+    get_minimal_character_list().await;
     let inputs: String = get_ids_from_user();
     let ids : Vec<&str> = inputs.split_ascii_whitespace().collect();
     for id in ids {
         let character = character_api_access(id).await;
         //println!("{:#?}", character);
         write_to_file(character).await;
+    }
+}
+
+async fn get_minimal_character_list() {
+    let url = "https://api.hakush.in/ww/data/character.json";
+
+    if let Ok(response) = reqwest::get(url).await {
+        if let Ok(map) = response.json::<MinimalCharacterMap>().await {
+            for (key, value) in &map {
+                println!("{}: {}", key, value.en);
+            }
+            write_character_list_to_file(&map);
+        }
     }
 }
 
