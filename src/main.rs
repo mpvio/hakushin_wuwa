@@ -26,11 +26,20 @@ async fn main() {
 
 async fn get_minimal_character_list() {
     let url = "https://api.hakush.in/ww/data/character.json";
+    let chars_per_row = 5;
 
     if let Ok(response) = reqwest::get(url).await {
         if let Ok(map) = response.json::<MinimalCharacterMap>().await {
+            let mut count = 0;
             for (key, value) in &map {
-                println!("{}: {}", key, value.en);
+                print!("{}: {:<15} ", key, value.en);
+                count += 1;
+                if count % chars_per_row == 0 {
+                    println!(); //new line after every N characters
+                }
+            }
+            if count % chars_per_row != 0 {
+                println!(); //forcibly switch to new line if total characters isn't a multiple of N
             }
             write_character_list_to_file(&map);
         }
